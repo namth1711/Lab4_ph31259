@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Bai3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginEnd="10sp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Đăng ký"
+            android:textColor="#03A9F4"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="User Name"
+                android:textColor="#FF4800"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/txtUserRg"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_weight="1"
+                android:background="@drawable/backroud"
+                android:ems="10"
+                android:hint="Nhập username"
+                android:inputType="text"
+                android:paddingLeft="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Password"
+                android:textColor="#FF4800"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/txtPassRG"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_weight="1"
+                android:background="@drawable/backroud"
+                android:ems="10"
+                android:hint="Nhập password"
+                android:inputType="text"
+                android:paddingLeft="20sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Comfirm Password"
+                android:textColor="#FF4800"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/txtCheckPassRG"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_weight="1"
+                android:background="@drawable/backroud"
+                android:ems="10"
+                android:hint="Nhập lại password"
+                android:inputType="text"
+                android:paddingLeft="20sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnDK"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#03A9F4"
+            android:text="Đăng kí"
+            app:strokeColor="#D1B1B1"
+            app:strokeWidth="2sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
